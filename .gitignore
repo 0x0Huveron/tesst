@@ -1,0 +1,65 @@
+# Ignore WordPress core files
+/Y0mOF0pN3C4Z.io
+
+# WordPress core files
+/YJmpLrEKXkg2.com/wp-admin/
+/YJmpLrEKXkg2.com/wp-includes/
+/YJmpLrEKXkg2.com/index.php
+/YJmpLrEKXkg2.com/xmlrpc.php
+/YJmpLrEKXkg2.com/wp-*.php
+/YJmpLrEKXkg2.com/*.php
+
+# WordPress content directory
+/YJmpLrEKXkg2.com/wp-content/uploads/
+/YJmpLrEKXkg2.com/wp-content/upgrade/
+/YJmpLrEKXkg2.com/wp-content/backup-db/
+/YJmpLrEKXkg2.com/wp-content/cache/
+/YJmpLrEKXkg2.com/wp-content/advanced-cache.php
+/YJmpLrEKXkg2.com/wp-content/wp-cache-config.php
+
+# Default themes
+/YJmpLrEKXkg2.com/wp-content/themes/twenty*/
+
+# Default plugins
+/YJmpLrEKXkg2.com/wp-content/plugins/hello.php
+/YJmpLrEKXkg2.com/wp-content/plugins/akismet/
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
+*.sql
+*.sqlite
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Node modules
+node_modules/
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Sensitive files
+*.env
+*.key
+*.pem
+wp-config.php
