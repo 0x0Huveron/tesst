@@ -9,20 +9,15 @@
 /YJmpLrEKXkg2.com/wp-*.php
 /YJmpLrEKXkg2.com/*.php
 
-# WordPress content directory
-/YJmpLrEKXkg2.com/wp-content/uploads/
-/YJmpLrEKXkg2.com/wp-content/upgrade/
-/YJmpLrEKXkg2.com/wp-content/backup-db/
-/YJmpLrEKXkg2.com/wp-content/cache/
-/YJmpLrEKXkg2.com/wp-content/advanced-cache.php
-/YJmpLrEKXkg2.com/wp-content/wp-cache-config.php
+# WordPress content directory - ignore everything except plugins and themes
+/YJmpLrEKXkg2.com/wp-content/*
+!/YJmpLrEKXkg2.com/wp-content/plugins/
+!/YJmpLrEKXkg2.com/wp-content/themes/
 
-# Default themes
-/YJmpLrEKXkg2.com/wp-content/themes/twenty*/
-
-# Default plugins
+# Then ignore specific content in plugins and themes
 /YJmpLrEKXkg2.com/wp-content/plugins/hello.php
 /YJmpLrEKXkg2.com/wp-content/plugins/akismet/
+/YJmpLrEKXkg2.com/wp-content/themes/twenty*/
 
 # System files
 .DS_Store
