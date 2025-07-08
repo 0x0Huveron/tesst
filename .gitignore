@@ -20,6 +20,23 @@
 /YJmpLrEKXkg2.com/wp-content/themes/*
 !/YJmpLrEKXkg2.com/wp-content/themes/hello-elementor/
 
+# Ignore uploads and generated files
+/YJmpLrEKXkg2.com/wp-content/uploads/
+/YJmpLrEKXkg2.com/wp-content/cache/
+/YJmpLrEKXkg2.com/wp-content/upgrade/
+/YJmpLrEKXkg2.com/wp-content/backup-db/
+/YJmpLrEKXkg2.com/wp-content/advanced-cache.php
+/YJmpLrEKXkg2.com/wp-content/wp-cache-config.php
+/YJmpLrEKXkg2.com/wp-content/debug.log
+
+# Ignore core WordPress files
+/YJmpLrEKXkg2.com/wp-admin/
+/YJmpLrEKXkg2.com/wp-includes/
+/YJmpLrEKXkg2.com/*.php
+/YJmpLrEKXkg2.com/wp-*.php
+/YJmpLrEKXkg2.com/xmlrpc.php
+/YJmpLrEKXkg2.com/index.php
+
 # System files
 .DS_Store
 Thumbs.db
