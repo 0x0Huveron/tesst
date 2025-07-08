@@ -7,10 +7,14 @@
 /YJmpLrEKXkg2.com/index.php
 /YJmpLrEKXkg2.com/xmlrpc.php
 /YJmpLrEKXkg2.com/wp-*.php
-/YJmpLrEKXkg2.com/*.php
 
-# WordPress content directory - ignore everything except plugins and themes
+# First, include the wp-content directory
+!/YJmpLrEKXkg2.com/wp-content/
+
+# Then ignore everything in wp-content
 /YJmpLrEKXkg2.com/wp-content/*
+
+# But keep plugins and themes directories
 !/YJmpLrEKXkg2.com/wp-content/plugins/
 !/YJmpLrEKXkg2.com/wp-content/themes/
 
