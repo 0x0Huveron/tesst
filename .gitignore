@@ -1,27 +1,24 @@
-# Ignore WordPress core files
-/Y0mOF0pN3C4Z.io
+# First ignore everything
+*
+!.gitignore
 
-# WordPress core files
-/YJmpLrEKXkg2.com/wp-admin/
-/YJmpLrEKXkg2.com/wp-includes/
-/YJmpLrEKXkg2.com/index.php
-/YJmpLrEKXkg2.com/xmlrpc.php
-/YJmpLrEKXkg2.com/wp-*.php
-
-# First, include the wp-content directory
+# Then whitelist wp-content directory
+!/YJmpLrEKXkg2.com/
+/YJmpLrEKXkg2.com/*
 !/YJmpLrEKXkg2.com/wp-content/
 
-# Then ignore everything in wp-content
+# Then whitelist plugins and themes
 /YJmpLrEKXkg2.com/wp-content/*
-
-# But keep plugins and themes directories
 !/YJmpLrEKXkg2.com/wp-content/plugins/
 !/YJmpLrEKXkg2.com/wp-content/themes/
 
-# Then ignore specific content in plugins and themes
-/YJmpLrEKXkg2.com/wp-content/plugins/hello.php
-/YJmpLrEKXkg2.com/wp-content/plugins/akismet/
-/YJmpLrEKXkg2.com/wp-content/themes/twenty*/
+# Ignore specific plugins and themes
+/YJmpLrEKXkg2.com/wp-content/plugins/*
+!/YJmpLrEKXkg2.com/wp-content/plugins/elementor/
+!/YJmpLrEKXkg2.com/wp-content/plugins/royal-elementor-addons/
+
+/YJmpLrEKXkg2.com/wp-content/themes/*
+!/YJmpLrEKXkg2.com/wp-content/themes/hello-elementor/
 
 # System files
 .DS_Store
